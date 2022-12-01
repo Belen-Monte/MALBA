@@ -1,0 +1,157 @@
+
+
+
+body {
+    background-image:
+        url(IMAGENES/decoracion2.png),
+        url(IMAGENES/decoracion.png);
+    background-position:
+        left,
+        right;
+    background-repeat: repeat-y;
+
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+h1, h2, h3, h4 {
+
+    font-family: 'bauhausregular';
+    font-weight: normal;
+
+}
+
+
+@media (max-width: 576px) {
+
+    body {
+        background-image:
+            url(IMAGENES/decoracion2.png),
+            url(IMAGENES/decoracion.png);
+        background-position:
+            left,
+            right;
+        background-repeat: repeat-y;
+        background-size: 10%;
+    }
+
+
+    #evento h2 {
+
+        font-weight: 300;
+        font-size: 35px;
+        margin: 0;
+
+    }
+
+    .organizacion{
+
+        font-size: 13px;
+
+    }
+
+
+}
+
+
+@media (min-width: 767.98px) {
+
+    .remedios p {
+
+        margin-right: 30%;
+
+    }
+
+
+}
+
+.elmundo{
+
+color: black;
+
+}
+
+#evento h2 {
+
+    font-weight: 300;
+    font-size: 50px;
+    margin: 0;
+
+}
+
+
+
+#opiniones p {
+
+    font-size: 12px;
+
+}
+
+
+.organizacion {
+
+    color: rgb(131, 139, 161);
+
+}
+
+
+#card-1 {
+
+    background-color: #ffc023;
+
+}
+
+
+#card-2 {
+
+    background-color: #e95a4d;
+
+}
+
+
+#card-3 {
+
+    background-color: #348fcc;
+
+
+}
+
+.card-text-2 {
+
+    font-size: 13px;
+    color: rgb(48, 48, 48);
+}
+
+
+#boton-reserva {
+
+    background-color: #006bb3;
+    color: white;
+    
+}
+
+#boton-suscribete {
+
+    background-color: #006bb3;
+    color: white;
+    
+}
+
+
+.accordion-button {
+
+    border: 1px solid;
+    border-color: #006bb3;
+
+}
+
+
+footer p {
+
+    font-size: 13px;
+
+}
